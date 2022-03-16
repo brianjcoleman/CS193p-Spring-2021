@@ -11,7 +11,7 @@ Type                                | Quantity  | Completion
 :---                                |  :---:  |   :---:
 Lectures                            | 2 / 14 |  **14%**
 Assignments                         |  1 / 6  | **16%**
-Extra credits                       |  0 / 5  | **0%**
+Extra credits                       |  1 / 5  | **20%**
 
 <br>
 
@@ -20,7 +20,7 @@ Extra credits                       |  0 / 5  | **0%**
 | :-----: | :-------: | :------:|:-----------:| :-----------:
 | [1: Getting Started with SwiftUI](https://youtu.be/bqu6BquVi2M) | - |[L1](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Lectures/Lecture1)| - | - |
 | [2: Learning More about SwiftUI](https://youtu.be/3lahkdHEhW8) | - |[L2](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Lectures/Lecture2)|[Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_1.pdf)<br>[Programming 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_1.pdf) | [A1](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Assignments/Assignment1) |
-| [3: MVVM](https://youtu.be/--qKOhdgJAs) | - | - | - |
+| [3: MVVM](https://youtu.be/--qKOhdgJAs) | - | - | - | - |
 | [4: More MVVM enum Optionals](https://youtu.be/oWZOFSYS5GE) | - | - |[Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Reading%202.pdf)<br>[Programming 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Assignment%202.pdf)| - |
 | [5: Properties Layout @ViewBuilder](https://www.youtube.com/watch?v=ayQl_F_uMS4) | - | - | - | - |
 | [6: Protocols Shapes](https://www.youtube.com/watch?v=Og9gXZpbKWo) | - | - |[Reading 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_3_0.pdf)<br>[Programming 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_3_0.pdf) | - |
