@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    var emojis = ["🚗","🛻","🚐","🚒","🚑","🚓","🏎","🚎","🚌","🚙","🚕","🛺"]
-    @State var emojiCount = 6
+    var emojis = ["🚗", "🛴", "✈️", "🛵", "⛵️", "🚎", "🚐", "🚛", "🛻", "🏎", "🚂", "🚊", "🚀", "🚁", "🚢", "🛶", "🛥", "🚞", "🚟", "🚃"]
+    @State var emojiCount = 20
     
     var body: some View {
         VStack {
@@ -83,5 +83,8 @@ struct CardView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
+        ContentView()
+            .preferredColorScheme(.light)
     }
 }
