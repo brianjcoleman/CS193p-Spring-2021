@@ -10,7 +10,7 @@ Lectures, videos & corresponding project files from Stanford can be found [here]
 Type                                | Quantity  | Completion
 :---                                |  :---:  |   :---:
 Lectures                            | 2 / 14 |  **14%**
-Assignments                         |  0 / 6  | **0%**
+Assignments                         |  1 / 6  | **16%**
 Extra credits                       |  0 / 5  | **0%**
 
 <br>
@@ -19,7 +19,7 @@ Extra credits                       |  0 / 5  | **0%**
 | Lecture | Demo Code | My Code | Material(s) | Assignment(s)
 | :-----: | :-------: | :------:|:-----------:| :-----------:
 | [1: Getting Started with SwiftUI](https://youtu.be/bqu6BquVi2M) | - |[L1](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Lectures/Lecture1)| - | - |
-| [2: Learning More about SwiftUI](https://youtu.be/3lahkdHEhW8) | - |[L2](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Lectures/Lecture2)|[Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_1.pdf)<br>[Programming 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_1.pdf) | - |
+| [2: Learning More about SwiftUI](https://youtu.be/3lahkdHEhW8) | - |[L2](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Lectures/Lecture2)|[Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_1.pdf)<br>[Programming 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_1.pdf) | [A1](https://github.com/brianjcoleman/CS193p-Spring-2021/blob/main/Assignments/Assignment1/Assignment1.png) |
 | [3: MVVM](https://youtu.be/--qKOhdgJAs) | - | - | - |
 | [4: More MVVM enum Optionals](https://youtu.be/oWZOFSYS5GE) | - | - |[Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Reading%202.pdf)<br>[Programming 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Assignment%202.pdf)| - |
 | [5: Properties Layout @ViewBuilder](https://www.youtube.com/watch?v=ayQl_F_uMS4) | - | - | - | - |
@@ -36,3 +36,10 @@ Extra credits                       |  0 / 5  | **0%**
 | [16: Multiplatform (macOS)](https://youtu.be/At6M7nUQ09E) | [L15+L16 Demo Code](https://web.stanford.edu/class/cs193p/Spring2021/EmojiArtL16.zip)| - | - | - |
 | [2020 11: Enroute Picker Codable REST API](https://youtu.be/fCfC6m7XUew) | [Demo (as shown in lecture)](https://web.stanford.edu/class/cs193p/Spring2020/EnrouteL11.zip)<br>[Demo (updated for Xcode 12)](https://web.stanford.edu/class/cs193p/Spring2021/EnrouteL11.Xcode12.zip) | - | - | - |
 | [2020 12: Core Data](https://youtu.be/yOhyOpXvaec) | [Demo (as shown in lecture)](https://web.stanford.edu/class/cs193p/Spring2020/EnrouteL12.zip)<br>[Demo (updated for Xcode 12)](https://web.stanford.edu/class/cs193p/Spring2021/EnrouteL12.Xcode12.zip) | - | - | - |
+
+# Assignment Screenshots
+- Below are screenshots of my completed assignments.
+<br>
+## # Assignment 1
+![](https://github.com/brianjcoleman/CS193p-Spring-2021/blob/main/Assignments/Assignment1/Assignment1.png)
+
