@@ -11,24 +11,39 @@ struct ContentView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 65))]) {
-                ForEach(viewModel.cards) { card in
-                    CardView(card: card)
-                        .aspectRatio(2/3, contentMode: .fit)
-                        .onTapGesture {
-                            viewModel.choose(card)
-                        }
+        VStack {
+            HStack {
+                Text(viewModel.themeName).font(.largeTitle)
+                Spacer()
+                Text("Score: \(viewModel.score)").font(.largeTitle)
+            }
+            
+            ScrollView {
+                LazyVGrid(columns: [GridItem(.adaptive(minimum: 65))]) {
+                    ForEach(viewModel.cards) { card in
+                        CardView(card: card, viewModel: viewModel)
+                            .aspectRatio(2/3, contentMode: .fit)
+                            .onTapGesture {
+                                viewModel.choose(card)
+                            }
+                    }
                 }
             }
+            .foregroundColor(viewModel.themeColor)
+            .padding(.horizontal)
+            
+            Button {
+                viewModel.newGame()
+            } label: {
+                Text("New Game").font(.largeTitle)
+            }
         }
-        .foregroundColor(/*@START_MENU_TOKEN@*/.red/*@END_MENU_TOKEN@*/)
-        .padding(.horizontal)
     }
 }
 
 struct CardView: View {
     let card: MemoryGame<String>.Card
+    @ObservedObject var viewModel: EmojiMemoryGame
     
     var body: some View {
         ZStack {
@@ -40,7 +55,11 @@ struct CardView: View {
             } else if card.isMatched {
                 shape.opacity(0)
             } else {
-                shape.fill()
+                if viewModel.useGradient {
+                    shape.fill(LinearGradient(gradient: Gradient(colors: [viewModel.themeColor, Color.pink]), startPoint: .top, endPoint: .bottom))
+                } else {
+                    shape.fill(viewModel.themeColor)
+                }
             }
         }
     }
