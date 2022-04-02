@@ -9,7 +9,7 @@ Lectures, videos & corresponding project files from Stanford can be found [here]
 ## Progress
 Type                                | Quantity  | Completion
 :---                                |  :---:  |   :---:
-Lectures                            | 4 / 14 |  **28%**
+Lectures                            | 5 / 14 |  **35%**
 Assignments                         |  2 / 6  | **33%**
 Extra credits                       |  2 / 5  | **40%**
 
@@ -21,7 +21,7 @@ Extra credits                       |  2 / 5  | **40%**
 | [1: Getting Started with SwiftUI](https://youtu.be/bqu6BquVi2M) | - |[L1](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Lectures/Lecture1)| - | - |
 | [2: Learning More about SwiftUI](https://youtu.be/3lahkdHEhW8) | - |[L2](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Lectures/Lecture2)|[Reading 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_1.pdf)<br>[Programming 1](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_1.pdf) | [A1](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Assignments/Assignment1) |
 | [3: MVVM](https://youtu.be/--qKOhdgJAs) | - | - | - | - |
-| [4: More MVVM enum Optionals](https://youtu.be/oWZOFSYS5GE) | - | - |[Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Reading%202.pdf)<br>[Programming 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Assignment%202.pdf)| - |
+| [4: More MVVM enum Optionals](https://youtu.be/oWZOFSYS5GE) | - | - |[Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Reading%202.pdf)<br>[Programming 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Assignment%202.pdf)| [A2](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Assignments/Assignment2) |
 | [5: Properties Layout @ViewBuilder](https://www.youtube.com/watch?v=ayQl_F_uMS4) | - | - | - | - |
 | [6: Protocols Shapes](https://www.youtube.com/watch?v=Og9gXZpbKWo) | - | - |[Reading 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_3_0.pdf)<br>[Programming 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_3_0.pdf) | - |
 | [7: ViewModifier Animation](https://youtu.be/PoeaUMGAx6c) | - | - | - | - |
