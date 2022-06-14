@@ -22,7 +22,7 @@ Assignments                         |  3 / 6  | **50%**
 | [3: MVVM](https://youtu.be/--qKOhdgJAs) | - | - | - | - |
 | [4: More MVVM enum Optionals](https://youtu.be/oWZOFSYS5GE) | - | - |[Reading 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Reading%202.pdf)<br>[Programming 2](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/Assignment%202.pdf)| [A2](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Assignments/Assignment2) |
 | [5: Properties Layout @ViewBuilder](https://www.youtube.com/watch?v=ayQl_F_uMS4) | - | - | - | - |
-| [6: Protocols Shapes](https://www.youtube.com/watch?v=Og9gXZpbKWo) | - | - |[Reading 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_3_0.pdf)<br>[Programming 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_3_0.pdf) | - |
+| [6: Protocols Shapes](https://www.youtube.com/watch?v=Og9gXZpbKWo) | - | - |[Reading 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/reading_3_0.pdf)<br>[Programming 3](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_3_0.pdf) | [A3](https://github.com/brianjcoleman/CS193p-Spring-2021/tree/main/Assignments/Assignment3) |
 | [7: ViewModifier Animation](https://youtu.be/PoeaUMGAx6c) | - | - | - | - |
 | [8: Animation Demo](https://youtu.be/-N1UR7Y105g) | [L7+L8 Demo Code](https://web.stanford.edu/class/cs193p/Spring2021/MemorizeL8.zip) | - | [Programming 4](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_4_0.pdf) | - |
 | [9: EmojiArt Drag/Drop](https://youtu.be/eNS5EzgK3lY) | - | - | - | - |
