@@ -32,7 +32,7 @@ struct CardView: View {
             }
         }
         .padding(size.height / 10)
-        .setCard(
+        .cardify(
             isSelected: card.isSelected,
             isMatched: card.isMatched,
             isHint: card.isHint

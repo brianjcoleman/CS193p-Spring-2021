@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CardModifier: ViewModifier {
+struct Cardify: ViewModifier {
     let isSelected: Bool
     let isMatched: Bool?
     let isHint: Bool
@@ -51,12 +51,12 @@ struct CardModifier: ViewModifier {
 }
 
 extension View {
-    func setCard(
+    func cardify(
         isSelected: Bool,
         isMatched: Bool?,
         isHint: Bool) -> some View {
             self.modifier(
-                CardModifier(
+                Cardify(
                     isSelected: isSelected,
                     isMatched: isMatched,
                     isHint: isHint)

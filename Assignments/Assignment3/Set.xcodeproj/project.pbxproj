@@ -16,7 +16,7 @@
 		0FDDC8A428582E6A003BBF06 /* Squiggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8A328582E6A003BBF06 /* Squiggle.swift */; };
 		0FDDC8A728582FC9003BBF06 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8A628582FC9003BBF06 /* Card.swift */; };
 		0FDDC8A928582FE7003BBF06 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8A828582FE7003BBF06 /* CardView.swift */; };
-		0FDDC8AB2858315A003BBF06 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8AA2858315A003BBF06 /* CardModifier.swift */; };
+		0FDDC8AB2858315A003BBF06 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8AA2858315A003BBF06 /* Cardify.swift */; };
 		0FDDC8AD28583187003BBF06 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8AC28583187003BBF06 /* Grid.swift */; };
 		0FDDC8AF2858319C003BBF06 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8AE2858319C003BBF06 /* GridLayout.swift */; };
 		0FDDC8B1285831B9003BBF06 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8B0285831B9003BBF06 /* SetGame.swift */; };
@@ -35,7 +35,7 @@
 		0FDDC8A328582E6A003BBF06 /* Squiggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squiggle.swift; sourceTree = "<group>"; };
 		0FDDC8A628582FC9003BBF06 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		0FDDC8A828582FE7003BBF06 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		0FDDC8AA2858315A003BBF06 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+		0FDDC8AA2858315A003BBF06 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		0FDDC8AC28583187003BBF06 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		0FDDC8AE2858319C003BBF06 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		0FDDC8B0285831B9003BBF06 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				0FDDC8A628582FC9003BBF06 /* Card.swift */,
-				0FDDC8AA2858315A003BBF06 /* CardModifier.swift */,
+				0FDDC8AA2858315A003BBF06 /* Cardify.swift */,
 				0FDDC8A828582FE7003BBF06 /* CardView.swift */,
 			);
 			path = Card;
@@ -206,7 +206,7 @@
 				0FDDC8A028582E3C003BBF06 /* Diamond.swift in Sources */,
 				0FDDC8A728582FC9003BBF06 /* Card.swift in Sources */,
 				0FDDC8AD28583187003BBF06 /* Grid.swift in Sources */,
-				0FDDC8AB2858315A003BBF06 /* CardModifier.swift in Sources */,
+				0FDDC8AB2858315A003BBF06 /* Cardify.swift in Sources */,
 				0FDDC8A228582E4D003BBF06 /* Oval.swift in Sources */,
 				0FDDC8B5285831E4003BBF06 /* SetGameVM.swift in Sources */,
 				0FDDC89E28582E28003BBF06 /* AnyShape.swift in Sources */,
