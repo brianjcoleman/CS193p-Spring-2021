@@ -10,7 +10,7 @@ Lectures, videos & corresponding project files from Stanford can be found [here]
 Type                                | Quantity  | Completion
 :---                                |  :---:  |   :---:
 Lectures                            | 12 / 16 |  **75%**
-Assignments                         |  5 / 6  | **83%**
+Assignments                         |  6 / 6  | **100%**
 
 <br>
 
