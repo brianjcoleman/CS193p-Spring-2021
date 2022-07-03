@@ -9,7 +9,7 @@ Lectures, videos & corresponding project files from Stanford can be found [here]
 ## Progress
 Type                                | Quantity  | Completion
 :---                                |  :---:  |   :---:
-Lectures                            | 13 / 16 |  **81%**
+Lectures                            | 14 / 16 |  **87%**
 Assignments                         |  6 / 6  | **100%**
 
 <br>
@@ -31,7 +31,7 @@ Assignments                         |  6 / 6  | **100%**
 | [12: Binding Sheet Navigation EditMode](https://youtu.be/s3tMkz1clOA) | [L11+L12 Demo Code](https://web.stanford.edu/class/cs193p/Spring2021/EmojiArtL12.zip) | - | [Programming 6](https://cs193p.sites.stanford.edu/sites/g/files/sbiybj16636/files/media/file/assignment_6.pdf) | - |
 | [13: Publisher More Persistence](https://youtu.be/wX3ruVLlWPg) | - | - | - | - |
 | [14: Document Architecture](https://youtu.be/Ou25reI71zU) | [L13+L14 Demo Code](https://web.stanford.edu/class/cs193p/Spring2021/EmojiArtL14.zip) | - | - | - |
-| [15: UIKit Integration](https://youtu.be/ba7sJ74vDtA) | [L15](https://github.com/skkimeo/CS193p-Spring2021/tree/main/Follow-along-codes/Lecture15) | - | - | - |
+| [15: UIKit Integration](https://youtu.be/ba7sJ74vDtA) | - | - | - | - |
 | [16: Multiplatform (macOS)](https://youtu.be/At6M7nUQ09E) | [L15+L16 Demo Code](https://web.stanford.edu/class/cs193p/Spring2021/EmojiArtL16.zip)| - | - | - |
 | [2020 11: Enroute Picker Codable REST API](https://youtu.be/fCfC6m7XUew) | [Demo (as shown in lecture)](https://web.stanford.edu/class/cs193p/Spring2020/EnrouteL11.zip)<br>[Demo (updated for Xcode 12)](https://web.stanford.edu/class/cs193p/Spring2021/EnrouteL11.Xcode12.zip) | - | - | - |
 | [2020 12: Core Data](https://youtu.be/yOhyOpXvaec) | [Demo (as shown in lecture)](https://web.stanford.edu/class/cs193p/Spring2020/EnrouteL12.zip)<br>[Demo (updated for Xcode 12)](https://web.stanford.edu/class/cs193p/Spring2021/EnrouteL12.Xcode12.zip) | - | - | - |
