@@ -136,35 +136,35 @@ extension UndoManager {
     }
 }
 
-extension View {
-    // returns a close button when device is iphone
-    @ViewBuilder
-    func wrappedInNavigationViewToMakeDismissable(_ dismiss: (() -> Void)?) -> some View {
-        if UIDevice.current.userInterfaceIdiom == .phone, let dismiss = dismiss {
-            NavigationView {
-                self
-                    .navigationBarTitleDisplayMode(.inline)
-                    .dismissable(dismiss)
-            }
-            .navigationViewStyle(StackNavigationViewStyle())
-        } else {
-            self
-        }
-    }
-    
-    @ViewBuilder
-    func dismissable(_ dismiss: (() -> Void)? ) -> some View {
-        if UIDevice.current.userInterfaceIdiom == .phone, let dismiss = dismiss {
-            self.toolbar {
-                ToolbarItem(placement: .cancellationAction) {
-                    Button("Close") { dismiss() }
-                }
-            }
-        } else {
-            self
-        }
-    }
-}
+//extension View {
+//    // returns a close button when device is iphone
+//    @ViewBuilder
+//    func wrappedInNavigationViewToMakeDismissable(_ dismiss: (() -> Void)?) -> some View {
+//        if UIDevice.current.userInterfaceIdiom == .phone, let dismiss = dismiss {
+//            NavigationView {
+//                self
+//                    .navigationBarTitleDisplayMode(.inline)
+//                    .dismissable(dismiss)
+//            }
+//            .navigationViewStyle(StackNavigationViewStyle())
+//        } else {
+//            self
+//        }
+//    }
+//    
+//    @ViewBuilder
+//    func dismissable(_ dismiss: (() -> Void)? ) -> some View {
+//        if UIDevice.current.userInterfaceIdiom == .phone, let dismiss = dismiss {
+//            self.toolbar {
+//                ToolbarItem(placement: .cancellationAction) {
+//                    Button("Close") { dismiss() }
+//                }
+//            }
+//        } else {
+//            self
+//        }
+//    }
+//}
 
 
 extension View {
@@ -179,10 +179,12 @@ extension View {
 }
 
 struct CompactableIntoContextMenu: ViewModifier {
-    
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
-    
-    private var compact: Bool { horizontalSizeClass == .compact }
+    var compact: Bool { horizontalSizeClass == .compact }
+    #else
+    let compact = false
+    #endif
     
     func body(content: Content) -> some View {
         if compact {
@@ -191,7 +193,9 @@ struct CompactableIntoContextMenu: ViewModifier {
             } label: {
                 Image(systemName: "ellipsis.circle")
             }
-            .contextMenu { content }
+            .contextMenu {
+                content
+            }
         } else {
             content
         }
